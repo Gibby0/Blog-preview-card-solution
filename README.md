@@ -29,8 +29,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: (https://gibby0.github.io/Blog-preview-card-solution/blog.html)
+- Solution URL: https://www.frontendmentor.io/solutions/frontend-mentor-blog-preview-card-solution-n_fL-5T6ni
+
+- Live Site URL: https://gibby0.github.io/Blog-preview-card-solution/blog.html
 
 
 ### Built with
