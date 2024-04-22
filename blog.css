@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    margin: 0;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+    font-family: Figtree;
+}
+
+.main {
+    margin-top: 5%; 
+    max-width: 384px; 
+    height: 522px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.main:active{
+    box-shadow: 20px 20px;
+}
+#section h1:active{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+#blog_image img{
+    height: 200px;
+    width: 336px;
+    padding: 24px;
+    border-radius: 45px;
+}
+
+#section{
+    margin-left:24px;
+}
+#section p{
+    font-size: 1em;
+    opacity: 50%;
+    
+}
+
+#section h1{
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+
+#header1{
+    background-color: hsl(47, 88%, 63%);
+    width: 70px;
+    color: black;
+    padding: 8px;
+    font-weight: 800;
+    text-align: center;
+}
+#header2{
+    margin-top: 12px;
+}
+
+#footer_image{
+    width: 160px;
+    height: 30px;
+    display: flex;
+}
+#footer_image span{
+    font-weight: bold;
+    font-size: 16px;
+    margin: 8px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media only screen and (max-width: 375px){
+    .main{
+        width: 327px;
+        height: 500px;
+    }
+}
